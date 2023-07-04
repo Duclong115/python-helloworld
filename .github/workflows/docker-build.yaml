@@ -33,7 +33,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: ./Dockerffile
+          file: ./Dockerfile
           platform: linux/amd64
           push: true
           tags: {{duclong1105}}/python-helloworld:latest
