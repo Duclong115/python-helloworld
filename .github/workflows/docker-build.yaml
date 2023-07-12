@@ -36,4 +36,4 @@ jobs:
           file: ./Dockerfile
           platform: linux/amd64
           push: true
-          tags: duclong1105/python-helloworld:latest
+          tags: duclong1105/python-helloworld:v1.1.0
